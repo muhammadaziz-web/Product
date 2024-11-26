@@ -1,0 +1,78 @@
+.Join .container .JoinMedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 968px;
+    height: 345px;
+    background: #02897A;
+    border-radius: 32px;
+    padding: 0px 0px 0px 51px;
+    margin-top: 150px;
+}
+.textBox p {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48.45px;
+    color: #FFFFFF;
+}
+.BtnBox {
+    width: 150px;
+    height: 50px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.BtnBox:hover {
+    transform: scale(1.1);
+}
+.BtnBox a {
+    color: #02897A;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+@media screen and (max-width: 1040px) {
+    .Join .container .JoinMedia {
+        width: 95%;
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 930px) {
+    .Join .container .JoinMedia {
+        display: flex;
+        flex-wrap: wrap;
+        height: 688px;
+    }
+    .Join .container .JoinMedia .textBox p {
+        text-align: center;
+    }
+    .Join .container .JoinMedia .BtnBox {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .Join .container .JoinMedia img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+@media screen and (max-width: 490px) {
+    .Join .container .JoinMedia .textBox p {
+        font-size: 1.5rem;
+    }
+    .Join .container .JoinMedia img {
+        width: 95%;
+        margin-top: -80px;
+    }
+}

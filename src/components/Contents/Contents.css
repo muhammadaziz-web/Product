@@ -1,0 +1,74 @@
+.Content {
+    margin-top: 150px;
+}
+.Content h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    color: var(--black-color);
+  }
+  
+  .Content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--black-color);
+    margin-top: 8px;
+    margin-bottom: 32px;
+  }
+  
+  .mySwiper img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .mySwiper p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .mySwiper h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: var(--black-color);
+
+  }
+  
+  @media (max-width: 768px) {
+    .Content h2 {
+      font-size: 0.8rem;
+    }
+  
+    .Content p {
+      font-size: 0.5rem;
+      line-height: 13px;
+    }
+  
+    .mySwiper h3 {
+      font-size: 0.7rem;
+      line-height: 20px;
+      text-align: left;
+      margin-top: -20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Content h2 {
+      font-size: 0.8rem;
+    }
+  
+    .mySwiper h3 {
+      font-size: 0.6rem;
+    }
+  }
+  @media (max-width: 350px) {
+    .Content h2 {
+      font-size: 0.8rem;
+    }
+  
+    .mySwiper h3 {
+      font-size: 0.5rem;
+    }
+  }

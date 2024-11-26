@@ -1,0 +1,103 @@
+.WasBuildContainer {
+    background-image: url(../../images/WasBuildBg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;   
+    background-position: 0;
+    background-position-y: bottom;
+}
+.dark .WasBuildContainer {
+    background-image: url(../../images/WasBuildBgDArk.png);
+}
+.WasBuildContainer .container h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 520px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 114px;
+    color: var(--black-color);
+}
+.WasBuildProducts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 66px;
+
+}
+.WasBuildProduct {
+    width: 280px;
+    padding: 10px;
+    transition: all ease 0.7s;
+    cursor: pointer;
+}
+.WasBuildProduct:hover {
+    background: #173A56;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px #173A56;
+}
+.WasBuildProduct:hover h3 {
+    color: #FFFFFF;
+}
+.WasBuildProduct:hover p {
+    color: #FFFFFF;
+}
+.WasBuildProduct h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    color: var(--black-color);  
+    margin-top: 30px;
+}
+.WasBuildProduct p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black-color);  
+    line-height: 26px;
+    margin-top: 13px;
+}
+.WasBuildBtnBox {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.WasBuildBtnBox a {
+    width: 195px;
+    height: 53px;
+    background: #02897A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+    border-radius: 4px;
+    margin-bottom: 53px;
+}
+.WasBuildBtnBox a:hover {
+    background: #02897A;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 5px #173A56;
+}
+@media screen and (max-width: 560px) {
+    .WasBuildContainer .container h2 {
+        width: 80%;
+        font-size: 1.5rem;
+        line-height: 30px;
+    } 
+    .WasBuildProducts {
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 20px;
+    }
+    .WasBuildProduct {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

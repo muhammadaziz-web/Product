@@ -1,0 +1,145 @@
+.QuickContainer {
+    padding-top: 203px;
+    background-image: url('../../images/Quickbg.png');
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 100%;
+    background-position-y: 130px;
+}
+.dark .QuickContainer {
+    background-image: url('../../images/QuickbgDark.png');
+}
+.QuickContainer .container h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: var(--black-color);
+}
+.QuickText {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    width: 542px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    color: var(--black-color);
+
+}
+.QuickFirtsProfile {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.PeopleProfile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.PeopleProfile p {
+    width: 274px;
+    height: 53px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px 0px #173A561A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 26.5px;
+    color: #2F281E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    animation: text 2s ease-out infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+.PeopleProfile img {
+    animation: img 2s ease-out infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+.QuickSecondProfile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+@keyframes text {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+@keyframes img {
+    0% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.QuickBtnBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.QuickBtnBox a {
+    width: 216px;
+    height: 53px;
+    background: #02897A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+.QuickBtnBox a:hover {
+    background: #02897A;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 5px #173A56;
+}
+@media screen and (max-width: 860px) {
+    .QuickContainer .container h1 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    .QuickText {
+        font-size: 0.8rem;
+        width: 95%;
+    }
+    .QuickFirtsProfile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .QuickSecondProfile {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .PeopleProfile img {
+        width: 30%;
+    }
+    .PeopleProfile p {
+        width: 90%;
+        padding: 10px 5px;
+        text-align: center;
+        height: auto;
+    }
+}

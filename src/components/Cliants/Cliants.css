@@ -1,0 +1,131 @@
+.Cliants {
+    margin-top: 150px;
+}
+.Cliants h1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    color: var(--black-color);
+}
+.Cliants p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    margin-top: 8px;
+    color: var(--black-color);
+}
+.CliantsBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.CliantsBoxs {
+    width: 320px;
+    padding: 28px 0px 28px 28px;
+    border: 1px solid #DEDEDE;
+    margin-top: 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.RatingBox {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.RatingBox img:nth-child(1) {
+    animation: star1 1s ease-out infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+.RatingBox img:nth-child(3) {
+    animation: star1 1s ease-out infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+.RatingBox img:nth-child(5) {
+    animation: star1 1s ease-out infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+@keyframes star1 {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(2px);
+    }
+}
+.RatingBox img:nth-child(2) {
+    animation: star2 1s ease-out infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+.RatingBox img:nth-child(4) {
+    animation: star2 1s ease-out infinite;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+@keyframes star2 {
+    0% {
+        transform: translateY(2px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.CliantsBoxs p {
+    display: flex;
+    text-align: start;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    color: #737373;
+}
+.ClianteProfile {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 16px;
+}
+.ClianteProfile div span {
+    color: #02897A;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+}
+.ClianteProfile div p {
+    display: flex;
+    margin-top: -5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    color: #252B42;
+}
+@media screen and (max-width: 1050px) {
+    .CliantsBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .Cliants h1 {
+        font-size: 1.5rem;
+    }
+    .Cliants p {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+    .ClianteProfile {
+        text-align: center;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,40 @@
+.OurClients {
+    margin-top: 180px;
+}
+.OurClients .container h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--black-color);
+}
+.OurClientsImages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 30px;
+    padding: 0 20px;
+}
+.OurClientsImages img {
+    transition: all ease 0.7s;
+    cursor: pointer;
+}
+.OurClientsImages img:hover {
+    transform: scale(1.1);
+}
+@media screen and (max-width: 600px ) {
+    .OurClients .container h1 {
+        font-size: 1.5rem;
+    }
+    .OurClientsImages {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .OurClientsImages img {
+        width: 100px;
+    }
+}

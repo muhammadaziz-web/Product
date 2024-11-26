@@ -1,0 +1,41 @@
+.ManagmentLeftRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.ManagmentLeft {
+    width: 460px;
+    color: var(--black-color);
+}
+.ManagmentLeft span {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.ManagmentLeft h1 {
+    margin-top: 8px;
+}
+.ManagmentLeft p {
+    margin-top: 23px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 1050px) {
+    .ManagmentLeftRight {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .ManagmentLeft {
+        width: 95%;
+    }
+    .ManagmentLeft h1 {
+        font-size: 1.5rem;
+    }
+    .ManagmentLeft p {
+        font-size: 0.8rem;
+    }
+    .ManagmentRight img {
+        width: 95%;
+    }
+}

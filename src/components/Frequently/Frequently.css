@@ -1,0 +1,79 @@
+.Frequently {
+    margin-top: 150px;
+}
+.Frequently .container h1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    color: var(--black-color);
+}
+.Frequently .container p {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--black-color);
+}
+.AddAndClosa {
+    display: grid;
+    align-items: center;
+    margin-top: 50px;
+    width: 920px;
+}
+.AddAndClosaBox {
+    margin-bottom: 16px;
+}
+.AddAndClosaText {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.AddAndClosa span {
+    width: 24px;
+    height: 24px;
+    background: #02897A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.AddAndClosaTexts {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--black-color);
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+.line {
+    display: flex;
+    background: #E7E7E7;
+    width: 920px;
+    height: 1px;
+    margin-top: 22px;
+}
+@media screen and (max-width: 1240px) {
+    .AddAndClosa {
+        width: 95%;
+    } 
+    .line {
+        width: 95%;
+    } 
+    .AddAndClosa span {
+        min-width: 24px;
+        min-height: 24px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Frequently .container h1 {
+        font-size: 1.5rem;
+    }
+    .Frequently .container p {
+        font-size: 0.9rem;
+    }
+}

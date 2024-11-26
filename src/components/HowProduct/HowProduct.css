@@ -1,0 +1,115 @@
+.HowProduct {
+    margin-top: 101px;
+}
+.HowProduct .container h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    text-align: center; 
+    color: var(--black-color);
+}
+.HowProductStep {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 89px;
+}
+.HowProductstepRight {
+    width: 438px;
+}
+.HowProductstepRight span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--black-color);
+}
+.HowProductstepRight h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: var(--black-color);
+    margin-top: 16px;
+}
+.HowProductstepRight p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--black-color);
+    margin-top: 16px;
+}
+.FirstStep {
+    margin-top: 73px;
+}
+.SecondStep {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ThirdStep {
+    margin-top: 100px;
+}
+.HowProductBtn {
+    margin-top: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 224px;
+    height: 44px;
+    background: #02897A;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.HowProductBtn:hover {
+    background: #02897A;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 5px #173A56;
+}
+@media screen and (max-width: 1040px) {
+    .HowProductStep {
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 550px) {
+    .HowProductstepLeft img {
+        width: 95%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .HowProductstepRight {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .HowProductstepRight h3 {
+        font-size: 1.2rem;
+    }
+    .HowProductstepRight p {
+        font-size: 0.8rem;
+        line-height: 20px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .HowProduct .container h1 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 270px) {
+    .HowProductBtn {
+        width: 95%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,67 @@
+.Enterprice {
+    margin-top: 150px;
+    width: 100%;
+    background: var(--other-bg-color);
+    padding: 52px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Enterprice .container h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: var(--black-color);   
+}
+.Enterprice .container h1 {
+    color: var(--black-color);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    margin-top: 16px;
+}
+.Enterprice .container p {
+    color: var(--black-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 8px;
+}
+.Enterprice .container .EnterpriceBtnBox a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 224px;
+    height: 44px;
+    background: #02897A;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;  
+    margin-top: 32px;  
+    color: #FFFFFF;
+    border-radius: 8px;
+    transition: all ease 0.7s;
+}
+.Enterprice .container .EnterpriceBtnBox a:hover {
+    background: #02897A;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 5px #173A56;
+}
+@media screen and (max-width: 700px) {
+    .Enterprice .container h1 {
+        font-size: 1.5rem;
+    } 
+    .Enterprice .container p {
+        font-size: 0.8rem;
+    } 
+}
+@media screen and (max-width: 320px) {
+    .Enterprice .container .EnterpriceBtnBox a {
+        width: 90%;
+        padding: 0 10px;
+    }
+}

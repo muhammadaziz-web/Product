@@ -1,0 +1,108 @@
+.WorkAtLeftRight {
+    margin-top: 125px;
+}
+.WorkAtLeftRight .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.WorkAtLeft {
+    width: 450px;
+    
+}
+.WorkAtLeft h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    color: var(--black-color);  
+}
+.WorkAtLeft p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 18px;
+    color: var(--black-color);
+}
+.LinkBox {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.LinkBox a:nth-child(1) {
+    width: 195px;
+    height: 53px;
+    background: #02897A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+    border-radius: 4px;
+}
+.WorkAtLeft a:nth-child(1):hover {
+    background: #02897A;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 5px #173A56;
+}
+.LinkBox a:nth-child(2) {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #02897A;
+    cursor: pointer;
+    transition: all ease 0.7s;
+}
+.WorkAtLeft a:nth-child(2):hover {
+    text-decoration: underline;
+}
+@media screen and (max-width: 1240px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 1090px) {
+    .WorkAtLeftRight .container {
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+    .WorkAtLeft {
+        margin-top: 30px;
+        width: 95%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .WorkAtLeft h1 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .WorkAtLeft p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .LinkBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .WorkAtRight {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .WorkAtRight img {
+        width: 95%;
+
+    }
+}

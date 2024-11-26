@@ -1,0 +1,81 @@
+.SendAMessage {
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 0 0 0 50px;
+}
+.container .SendAMessage h1 {
+    padding-top: 52px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    color: var(--black-color);
+    margin-bottom: 45px;
+}
+.container .SendAMessage input{
+    display: flex;
+    width: 95%;
+    margin-bottom: 45px;
+    height: 54px;
+    border: none;
+    outline: none;
+    border-radius: 39px;
+    background: #F5F5F5;
+    padding-left: 20px;
+}
+.container .SendAMessage input::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.10000000149011612px;
+    color: #22343D;
+}
+.container .SendAMessage textarea {
+    max-width: 95%;
+    width: 95%;
+    min-height: 119px;
+    display: flex;
+    padding: 23px 0 0 20px;
+    border: none;
+    outline: none;
+    border-radius: 39px;
+    background: #F5F5F5;
+}
+.container .SendAMessage textarea::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.10000000149011612px;
+    color: #22343D;
+}
+.container .SendAMessage a {
+    margin-top: 45px;
+    width: 145px;
+    height: 52px;
+    border-radius: 35px;
+    background: #02897A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-bottom: 52px;
+    transition: all ease 0.7s;
+    cursor: pointer;
+}
+.container .SendAMessage a:hover{
+    background: #02897A;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 5px #173A56;
+}
+@media screen and (max-width: 850px) {
+
+    .container .SendAMessage input {
+        width: 95%;
+    }
+    .container .SendAMessage textarea {
+        width: 95%;
+    }
+}

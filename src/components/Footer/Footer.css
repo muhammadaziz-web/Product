@@ -1,0 +1,161 @@
+.Footer {
+    margin-top: 150px;
+    height: 250px;
+}
+.Footer .container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.LogoBox a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #173A56;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 28px;
+    color: var(--black-color);
+}
+.Link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+.Link a {
+    width: 40px;
+    height: 40px;
+    background: #EDFFFC;
+    padding: 8px;
+    border-radius: 50%;
+}
+.Resource {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 50px;
+}
+.Resource h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--black-color);
+}
+.Resource a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: var(--black-color);
+}
+.LegalStuff {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 50px;
+}
+.LegalStuff h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--black-color);
+}
+.LegalStuff a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: var(--black-color);
+}
+#GetText{
+  width: 325px;  
+}
+.InpBox p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--black-color);
+}
+#GetText {
+    display: block;
+    margin-top: 34px;
+    width: 325px;
+    height: 48px;
+    outline: none;
+    font-size: 25px;
+    box-shadow: 0px 1px 2px 0px #00000040;
+    border-radius: 5px;
+    padding: 0 0 0 10px;
+}
+.InpBox .InpBoxBtn {
+    width: 131px;
+    height: 39px;
+    background: #02897A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+    transition: all ease 0.7s;
+}
+.InpBox .InpBoxBtn a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.InpBox .InpBoxBtn:hover {
+    transform: scale(1.1);
+}
+@media screen and (max-width: 1040px) {
+    .Footer .container {
+        display: block;
+        text-align: center;
+    }
+    .LogoBox {
+        display:grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .Resource {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    .LegalStuff {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    .InpBox {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    .InpBox .InpBoxBtn {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 44px;
+    }
+    #GetText  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 380px) {
+    #GetText {
+        width: 90%;
+    }
+}

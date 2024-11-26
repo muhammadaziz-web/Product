@@ -1,0 +1,86 @@
+.IsBeing {
+    margin-top: 150px;
+}
+.IsBeing .container h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--black-color);
+}
+.IsBeingLeftRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin-top: 56px;
+}
+.IsBeingRightBox {
+    margin-bottom: 32px;
+}
+.IsBeingRightBox p {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--black-color);
+}
+.IsBeingRightBoxImg {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.IsBeingRightBoxImg h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    color: var(--black-color);
+}
+.IsBeingRightBoxImg img {
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    background: #F4F5F7;
+    border-radius: 50%;
+}
+.IsBeingLeftMediaImg {
+    display: none;
+}
+.IsBeingLeftImg {
+    margin-bottom: 32px;
+}
+@media screen and (max-width: 1000px) {
+    .IsBeingLeftRight {
+        display: block;
+    }
+    .IsBeingLeft {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .IsBeingRight {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .IsBeing .container h1 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .IsBeing .container h1 {
+        font-size: 1.5rem;
+    }
+    .IsBeingLeft img {
+        width: 95%;
+    }   
+    .IsBeingLeftImg {
+        display: none;
+    }
+    .IsBeingLeftMediaImg {
+        display: flex;
+        margin-bottom: 32px;
+    }
+}

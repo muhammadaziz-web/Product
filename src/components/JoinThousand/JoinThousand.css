@@ -1,0 +1,86 @@
+.JoinThousand {
+    margin-top: 115px;
+    width: 100%;
+    background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+}
+.dark .JoinThousand {
+    background: #22343D;
+}
+.JoinThousand .container h1 {
+    text-align: center;
+    width: 537px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--black-color);
+}
+.JoinThousandBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 93px;
+    gap: 20%;
+}
+.JoinThousandBoxs {
+    text-align: center;
+    padding-bottom: 45px;
+}
+.JoinThousandBoxs img {
+    width: 150px;
+    height: 150px;
+    background: #FFEFEF;
+    padding: 45px;
+    border-radius: 50%;
+}
+.SecondBoxs img {
+    background: #F2F6FF;
+}
+.JoinThousandBoxs h3 {
+    margin-top: 27px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #000000;
+}
+.dark .JoinThousandBoxs h3 {
+    color: #FFEFEF;
+}
+.JoinThousandBoxs p {
+    margin-top: 16px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--black-color);    
+}
+.JoinThousandBoxs span {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #000000;    
+}
+.dark .JoinThousandBoxs span{
+    color: #FFEFEF;
+}
+@media screen and (max-width: 600px) {
+    .JoinThousand .container h1 {
+        width: 95%;
+    }
+    .JoinThousandBoxs {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    .JoinThousand .container h1 {
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+}
