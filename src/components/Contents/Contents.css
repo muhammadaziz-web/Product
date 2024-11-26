@@ -1,5 +1,6 @@
 .Content {
     margin-top: 150px;
+    user-select: none;
 }
 .Content h2 {
     font-size: 34px;

@@ -30,6 +30,7 @@
     margin-top: 50px;
     transition: all ease 0.7s;
     cursor: pointer;
+    user-select: none;
 }
 .PriceTableBox:hover {
     transform: scale(1.1);
@@ -125,27 +126,27 @@
     .PriceTableBoxs {
         display: flex;
         flex-wrap: nowrap;
-        overflow-x: auto; /* Allows scrolling horizontally */
-        justify-content: flex-start; /* Aligns the content to the left */
+        overflow-x: auto; 
+        justify-content: flex-start;
         padding-bottom: 20px;
         gap: 30px;
     }
 
     .PriceTableBox {
-        min-width: 280px; /* Make boxes smaller */
+        min-width: 280px;
         margin-right: 15px;
-        flex-shrink: 0; /* Prevents boxes from shrinking */
-        text-align: left; /* Align text to the left for readability */
+        flex-shrink: 0;
+        text-align: left;
     }
 
     .PriceTableBox:nth-child(2) {
         margin-left: auto;
-        margin-right: auto; /* Centers the Standard box */
+        margin-right: auto;
     }
 
-    /* Optional: You may want to hide unnecessary text on smaller screens */
+
     .PriceTableBox p {
-        font-size: 14px; /* Make text smaller */
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 430px) {

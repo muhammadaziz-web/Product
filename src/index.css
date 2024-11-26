@@ -16,6 +16,7 @@
     --white-color: white;
     --bg-color: white;
     --other-bg-color: #F6F6F6;
+    user-select: none;
 }
 .dark{
     --white-color: #22343D;

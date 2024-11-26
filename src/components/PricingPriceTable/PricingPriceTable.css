@@ -38,6 +38,7 @@
     margin-top: 50px;
     transition: all ease 0.7s;
     cursor: pointer;
+    user-select: none;
 }
 .PriceTableBox:hover {
     transform: scale(1.1);

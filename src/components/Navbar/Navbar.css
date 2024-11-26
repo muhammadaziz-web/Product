@@ -21,6 +21,7 @@
     font-weight: 700;
     line-height: 28px;
     color: var(--black-color);
+    user-select: none;
 }
 .mediaBox {
     display: flex;
@@ -54,6 +55,7 @@
     align-items: center;
     gap: 10px;
     color: var(--black-color);
+    user-select: none;
 }
 
 .siteNav .container ul li a:before {
@@ -84,6 +86,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
 }
 .btnBox a:nth-child(1) {
     border: 1px solid #BCD0E5;
@@ -129,6 +132,7 @@
     border-radius: 50%;
     cursor: pointer;
     transition: all ease 0.7s;
+    user-select: none;
 }
 .DarkWhiteBtn:hover {
     transform: scale(1.1);
@@ -144,6 +148,7 @@
     color: #173A56;
     display: none;
     color: var(--black-color);
+    user-select: none;
 }
 .DarkWhite {
     display: flex;
