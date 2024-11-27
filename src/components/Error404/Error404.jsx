@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Error404.css"
 
 const Error404 = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []); 
+
     return(
         <div>
             <section className="page_404">

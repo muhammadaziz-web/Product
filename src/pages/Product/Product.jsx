@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import WorkAt from '../../components/WorkAt/WorkAt'
 import WasBuilt from '../../components/WasBuilt/WasBuilt'
 import Management from '../../components/Management/Management'
@@ -13,6 +13,11 @@ import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 
 const Product = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
+
   return (
     <div>
       <Navbar />      

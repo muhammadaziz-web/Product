@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Customers from './pages/Customers/Customers'
 import Pricing from './pages/Pricing/Pricing'
 import Product from './pages/Product/Product'
@@ -7,6 +7,8 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Error404 from './components/Error404/Error404'
 
 const App = () => {
+
+
   return (
     <div>
       <Router>
