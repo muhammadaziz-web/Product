@@ -55,11 +55,25 @@ const Contents = () => {
         <p>
           We focus on ergonomics and meeting you where you work. It's only a keystroke away.
         </p>
+        <Swiper>
+        </Swiper>
         <Swiper
-          slidesPerView={3}
-          spaceBetween={30}
+          slidesPerView={1} // Default: 1 ta slayd
+          spaceBetween={10}
+          breakpoints={{
+            640: {
+              slidesPerView: 1, // Mobil qurilmalarda bitta slayd
+            },
+            768: {
+              slidesPerView: 2, // Planshetlar uchun 2 ta slayd
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 3, // Katta ekranlar uchun 3 ta slayd
+              spaceBetween: 30,
+            },
+          }}
           pagination={{ dynamicBullets: true }}
-          centeredSlides={true}
           autoplay={{ delay: 2500, disableOnInteraction: false }}
           modules={[Pagination, Autoplay]}
           className="mySwiper"
