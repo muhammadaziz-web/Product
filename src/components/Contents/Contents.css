@@ -5,6 +5,7 @@
     margin-top: 150px;
     user-select: none;
 }
+
 .Content h2 {
     font-size: 34px;
     font-weight: 700;
@@ -37,15 +38,16 @@
     font-weight: bold;
     text-align: left;
     color: var(--black-color);
+    padding-bottom: 40px;
 
   }
   .mySwiper .swiper-pagination-bullet {
-    background: #22343D; 
+    background: #02897A; 
     
   }
   
   .mySwiper .swiper-pagination-bullet-active {
-    background: #22343D; 
+    background: #02897A; 
   }
   @media (max-width: 768px) {
     .Content h2 {

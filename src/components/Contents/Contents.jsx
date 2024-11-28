@@ -58,22 +58,23 @@ const Contents = () => {
         <Swiper>
         </Swiper>
         <Swiper
-          slidesPerView={1} // Default: 1 ta slayd
+
+          slidesPerView={1}
           spaceBetween={10}
           breakpoints={{
             640: {
-              slidesPerView: 1, // Mobil qurilmalarda bitta slayd
+              slidesPerView: 1,
             },
             768: {
-              slidesPerView: 2, // Planshetlar uchun 2 ta slayd
+              slidesPerView: 2,
               spaceBetween: 20,
             },
             1024: {
-              slidesPerView: 3, // Katta ekranlar uchun 3 ta slayd
+              slidesPerView: 3,
               spaceBetween: 30,
             },
           }}
-          pagination={{ dynamicBullets: true }}
+          pagination={true }
           autoplay={{ delay: 2500, disableOnInteraction: false }}
           modules={[Pagination, Autoplay]}
           className="mySwiper"
