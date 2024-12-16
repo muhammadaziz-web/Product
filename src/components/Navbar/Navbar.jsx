@@ -66,10 +66,10 @@ const Navbar = () => {
               </li>
             </ul>
             <div className="btnBox">
-              <NavLink to="/signin">
+              <NavLink to="/login">
                 Sign In
               </NavLink>
-              <NavLink>
+              <NavLink to="/logon">
                 Sign Up
               </NavLink>
             </div>
